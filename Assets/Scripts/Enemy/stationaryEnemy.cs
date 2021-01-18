@@ -14,22 +14,27 @@ public class stationaryEnemy : Enemy
     }
 
 
+    
+
     public override void idle()
     {
-
+        print("idle");
     }
     public override void patrol()
     {
-        
+        idle();
     }
 
     public override void chase()
     {
-        
+        attack();
     }
 
     public override void attack()
     {
-        
+        print("attack");
     }
+
+    
+
 }
